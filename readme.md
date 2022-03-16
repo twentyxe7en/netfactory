@@ -15,3 +15,6 @@ v2.0.1
 
 v2.0.2
 	Updated login process
+
+v2.1.0
+	Added dashboard
