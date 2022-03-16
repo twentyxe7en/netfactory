@@ -31,7 +31,7 @@ section {
 }
 
 #sec-left img {
-	width: 65%;
+	width: 40%;
 }
 
 #sec-left h2 {
@@ -74,6 +74,7 @@ form input {
 	width: 80%;
 	height: 40px;
 	text-align: center;
+	font-size: 16px;
 }
 
 input[type="submit"] {
@@ -82,4 +83,5 @@ input[type="submit"] {
 	border: none;
 	font-weight: 600;
 	text-transform: uppercase;
+	cursor: pointer;
 }
