@@ -12,3 +12,6 @@ v2.0.0
 
 v2.0.1
 	Updated README.MD
+
+v2.0.2
+	Updated login process
