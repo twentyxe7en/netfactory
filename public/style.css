@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+
+div {
+	position: relative;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+section {
+	position: relative;
+	display: flex;
+}
+
+#sec-left {
+	background: url("images/background/background.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#sec-left {
+	width: 75%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#sec-left img {
+	width: 65%;
+}
+
+#sec-left h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 4px 5px #000;
+}
+
+#sec-right {
+	width: 25%;
+	justify-content: center;
+	align-items: center;
+}
+
+#sec-right form {
+	.border: 2px solid #000;
+	position: relative;
+	display: flex;
+	height: 30%;
+	width: 95%;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+form h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+form a {
+	text-decoration: none;
+	color: #00f;
+	font-size: 16px;
+}
+
+form input {
+	position: relative;
+	width: 80%;
+	height: 40px;
+	text-align: center;
+}
+
+input[type="submit"] {
+	background: #f00;
+	color: #fff;
+	border: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
