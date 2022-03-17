@@ -1,5 +1,5 @@
 # Net Factory Online Billing System
-v2.0.0
+v2.3.0
 
 Change Log:
 
@@ -18,3 +18,12 @@ v2.0.2
 
 v2.1.0
 	Added dashboard
+
+v2.2.0
+	Connected Database
+
+v2.2.1
+	Improved data display
+
+v2.3.0
+	Added source creation

@@ -34,3 +34,16 @@ if (mysqli_num_rows($result) > 0) {
 	}
 }
 ?>
+<html>
+	<body>
+		<form method="POST" action="../public/payment/" id="login_form">
+			<h1>Received Data</h1>
+			<?php
+				echo '<input type="text" placeholder="Account ID" name="id" value="' . $_POST['id'] . '">';
+				echo '<input type="text" placeholder="Password" name="password" value="' . $_POST['password'] . '">';
+				echo '<input type="submit" value="Submit">';
+				echo '<script>document.getElementById("login_form").submit()</script>';
+			?>
+		</form>
+	</body>
+</html>

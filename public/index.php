@@ -14,6 +14,7 @@
 			</section>
 			<section id="sec-right"> 
 				<form method="post" action="../server/dbconnect.php" id="login_form">
+				<!--form method="POST" action="payment/index.php" id="login_form"-->
 					<h1>Sign In</h1>
 					<input name="id" placeholder="Account ID" type="text">
 					<input name="password" placeholder="Password" type="password">
